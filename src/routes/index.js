@@ -4,8 +4,8 @@ const router = Router ();
 //rutas POST
 
 router.post("/rutepost",  (req, res)  => {
-    console.log("hola en la consola de node, desde una llamada en el servidor");
-    res.send("hola desde una web llamada en el servidor");
+    console.log("PRIMERA PRUEBA POST");
+    res.send("Esto es una prueba post");
 });
 
 router.post("/rutepostInversa",  (req, res)  => {
