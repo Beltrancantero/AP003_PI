@@ -29,7 +29,7 @@ router.post("/rutepost47",  (req, res)  => {
 });
 
 //Rutas GET
-router.Get("/ruteGet",  (req, res)  => {
+router.get("/ruteGet",  (req, res)  => {
     console.log("hola en la consola de node, desde una llamada en el servidor");
     res.send("hola desde una web llamada en el servidor");
 });
