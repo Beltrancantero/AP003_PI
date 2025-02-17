@@ -8,23 +8,23 @@ router.post("/rutepost",  (req, res)  => {
     res.send("Esto es una prueba post");
 });
 
-router.post("/rutepostInversa",  (req, res)  => {
+router.post("/rutepost2",  (req, res)  => {
     console.log("rodivres le ne adamall arto edsed ,edon ed alosnoc al ne aloh");
     res.send("rodivres le ne adamall bew anu edsed aloh");
 });
 
 router.post("/rutepostJSON",  (req, res)  => {
-    console.log("hola en la consola de node, desde otra llamada en el servidor");
-    res.json("hola desde otra web llamada en el servidor pero esta vez con JSON");
+    console.log("hola en la app de postman, desde otra llamada en el servidor");
+    res.send("hola desde otra ruta post pero esta vez sin JSON");
 });
 
 router.post("/rutepostMacarena",  (req, res)  => {
-    console.log("hola en la consola de node, desde la pista de baile");
+    console.log("hola en la app de postman, desde la pista de baile");
     res.send("dale a tu cuerpo alegria macarena");
 });
 
 router.post("/rutepost47",  (req, res)  => {
-    console.log("hola en la consola de node, desde el numero 47");
+    console.log("hola en la app de postman, desde el numero 47");
     res.send("47");
 });
 
